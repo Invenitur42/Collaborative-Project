@@ -1,0 +1,14 @@
+body {
+    font-family: arial;
+    line-height: 1.5;
+    background-color: gray;
+    width: 500px;
+    margin: auto;
+  }
+  form {
+    background: rgb(200,200,200, 0.5);
+    padding: 2.5rem 2.5rem;
+    border-radius: 2rem;
+    width: 400px;
+    margin: auto;
+  }
