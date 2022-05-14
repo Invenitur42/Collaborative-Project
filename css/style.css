@@ -1,16 +1,17 @@
 body {
     font-family: arial;
     line-height: 1.5;
-    background-color: gray;
+    background-color: rgb(65, 55, 55, 0.9);
     width: 500px;
     margin: auto;
   }
   form {
-    background: rgb(200,200,200, 0.5);
+    background: rgba(5, 5, 5, 0.5);
     padding: 2.5rem 2.5rem;
     border-radius: 2rem;
     width: 400px;
     margin: auto;
+    color: white;
   }
   .submit-button {
     width: 100%;
@@ -41,6 +42,7 @@ body {
   }
   #description {
     text-align: center;
+    color: white;
     font-family: garamond;
   }
   
