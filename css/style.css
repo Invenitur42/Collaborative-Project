@@ -24,4 +24,23 @@ body {
     margin: 0 auto 1.25rem auto;
     padding: 0.25rem;
   }
+  .form-inputs {
+    display: block;
+    width: 50%;
+    height: 2rem;
+    padding: 0.25rem 0.75rem;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 0.25rem;
+  }
+  #title {
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 10px
+  }
+  #description {
+    text-align: center;
+    font-family: garamond;
+  }
   
