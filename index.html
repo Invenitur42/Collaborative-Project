@@ -6,17 +6,17 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <header>
-    <h1 id="title"> Book purchase </h1>  
+    <h1 id="title"> Novel purchase </h1>  
   </header>
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <p id="description"> <b>Select the book you would like to buy below </b></p>
+    <p id="description"> <b>Select your novel purchase specifications </b></p>
     <div class="input-heading">   
     
       <form id="survey-form">
         <label for="name" id="name-label"> Name: </label>
-        <input id="name" type="text" name="name" placeholder="Enter your here" class="form-inputs" required> </input></br>
+        <input id="name" type="text" name="name" placeholder="Enter your name here" class="form-inputs" required> </input></br>
         <label for="email" id="email-label"> E-mail: </label>
       <input id="email" type="email" name="email" placeholder="Name@person.com" class="form-inputs" required> </input></br>
         <label for="number" id="number-label"> Phone: </label>
@@ -25,21 +25,22 @@
       <label for="dropdown" id="genre"> Select Genre</label>
       <select id="dropdown" class="form-inputs">
               <option value="fantasy"> Fantasy</option>
+              <option value="Sci-fi"> Sci-fi</option>
        <option value="fiction"> Fiction</option>
-         <option value="Sci-fi"> Sci-fi</option>
          <option value="thriller"> Thriller</option>
          <option value="crime"> Crime</option>
       </select>
       </br>
-      <br>
       <lable for="author" id="author"> <b>Author:</b> </label>
       <br>
+
+      <input id="author_name" type="radio" id="Neil_Gaiman" name="author_name" value="Neil_Gaiman">
+      <label for="author_name"> Neil Gaiman </label>
+      <br>
+
+
       <input id="author_name" type="radio" id="Carl_Jung" name="author_name" value="Carl_Jung">
       <label for="author_name"> Carl Jung </label>
-      <br>
-      
-      <input id="author_name" type="radio" id="Carl_Jung" name="author_name" value="Neil_Gaiman">
-      <label for="author_name"> Neil Gaiman </label>
       <br>
       
       <input id="author_name" type="radio" id="Jordan_peterson" name="author_name" value="Jordan_Peterson">
@@ -48,15 +49,15 @@
       <br>
       <label for="Length"> <b> Prefered Book Length: </b> </label>
 <br>
-<input id="checkbox" type="checkbox" name="Length" Value="short"> <label for="checkbox"> Short Reads </label> <br>
+<input id="checkbox" type="checkbox" name="Length" Value="short"> <label for="checkbox"> Short Novel </label> <br>
 <input id="checkbox" type="checkbox" name="Length" Value="Average"> 
-<label for="checkbox"> Average Reads </label> <br>
-<input id="checkbox" type="checkbox" name="Length" Value="Long"> <label for="checkbox"> Long Reads </label> <br>
+<label for="checkbox"> Average Novel </label> <br>
+<input id="checkbox" type="checkbox" name="Length" Value="Long"> <label for="checkbox"> Long Novel </label> <br>
 <br>
 <br>
-<label id="textarea"> Specifications: </label>
+<label id="textareatitle"> Specifications: </label>
 <br>
-<textarea id ="textarea" name"additional_information" rows="5" cols="40"></textarea>
+<textarea id ="textarea" name"additional_information" rows="4" cols="30"></textarea>
   <br>
 <input id="submit" type="submit" value="Send" class="submit-button">
        
